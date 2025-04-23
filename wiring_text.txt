@@ -1,0 +1,15 @@
+
++-------------------+         +----------------------+
+| Arduino UNO       |         | Composant            |
++-------------------+         +----------------------+
+| Digital Pin 2     |--------> Fil niveau BAS        (plongé en bas du récipient)
+| Digital Pin 3     |--------> Fil niveau MOYEN      (milieu)
+| Digital Pin 4     |--------> Fil niveau HAUT       (haut du récipient)
+| Digital Pin 13    |--------> Résistance 220Ω ----> Anode (longue patte) de la LED
+| GND               |--------> Cathode (courte patte) de la LED ET retour des 3 fils de niveau
+
+(Optionnel) Buzzer :
+| Digital Pin 12    |--------> Buzzer +
+| GND               |--------> Buzzer -
+
+Alimentation : via USB ou pile 9V + adaptateur (Vin & GND)
